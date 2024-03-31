@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.board {
+  display: none;
+}
+
+.square {
+  display: flex;
+  height: 175px;
+  width: 175px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+}
+
+#a1,
+#b1,
+#c1 {
+  border-top: none;
+}
+
+#a3,
+#b3,
+#c3 {
+  border-bottom: none;
+}
+
+#a1,
+#a2,
+#a3 {
+  border-left: none;
+}
+
+#c1,
+#c2,
+#c3 {
+  border-right: none;
+}
+
+#player1Name {
+  margin-bottom: 10%;
+}
+
+#player2Name {
+  margin-bottom: 10%;
+}
+
+label {
+  font-size: 1.2em;
+}

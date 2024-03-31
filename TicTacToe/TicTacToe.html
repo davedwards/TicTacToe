@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Tic Tac Toe</h1>
+      <div class="display">
+        <form action="nameInput" class="nameInput">
+          <label for="player1Name">Player 1 Name</label>
+          <input type="text" id="player1Name" name="player1Name" required>
+          <label for="player2Name">Player 2 Name</label>
+          <input type="text" id="player2Name" name="player2Name" required>
+          <input type="submit" id="submit" name="submit" value="Submit / Start">
+        </form>
+      </div>
+    </div>
+    <div class="board">
+      <div class="columnA">
+        <div class="square" id="a1"></div>
+        <div class="square" id="a2"></div>
+        <div class="square" id="a3"></div>
+      </div>
+      <div class="columnB">
+        <div class="square" id="b1"></div>
+        <div class="square" id="b2"></div>
+        <div class="square" id="b3"></div>
+      </div>
+      <div class="columnC">
+        <div class="square" id="c1"></div>
+        <div class="square" id="c2"></div>
+        <div class="square" id="c3"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
